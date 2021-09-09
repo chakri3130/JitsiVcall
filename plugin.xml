@@ -37,9 +37,9 @@
         </config-file>
         <source-file src="src/ios/JitsiVCall.m" />
         <source-file src="src/ios/ConferenceViewController.m" />
-        <source-file src="src/ios/ConferenceViewController.h" />
+        <header-file src="src/ios/ConferenceViewController.h" />
         <source-file src="src/ios/ConferenceViewController.xib" />
-        <source-file src="src/ios/JitsiMeet.framework" />
-        <source-file src="src/ios/WebRTC.framework" />
+        <framework src="src/ios/JitsiMeet.framework" custom="true"/>
+        <framework src="src/ios/WebRTC.framework" custom="true"/>
     </platform>
 </plugin>
