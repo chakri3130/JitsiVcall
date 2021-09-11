@@ -39,7 +39,16 @@
         <source-file src="src/ios/ConferenceViewController.m" />
         <header-file src="src/ios/ConferenceViewController.h" />
         <source-file src="src/ios/ConferenceViewController.xib" />
-        <framework src="src/ios/JitsiMeet.framework" custom="true"/>
-        <framework src="src/ios/WebRTC.framework" custom="true"/>
+<!--         <framework src="src/ios/JitsiMeet.framework" custom="true"/>
+        <framework src="src/ios/WebRTC.framework" custom="true"/> -->
+        <framework src="JitsiMeetSDK" type="podspec" spec="3.4.1"/>
+        <podspec>
+            <config>
+                <source url="https://cdn.cocoapods.org/"/>
+            </config>
+            <pods>
+                <pod name="JitsiMeetSDK" spec="3.4.1"/>
+            </pods>
+        </podspec>
     </platform>
 </plugin>
