@@ -3,7 +3,7 @@
 #import <Cordova/CDV.h>
 #import "ConferenceViewController.h"
 
-@import JitsiMeet;
+@import JitsiMeetSDK;
 
 @interface JitsiVCall : CDVPlugin<jitsiconferecedelgeteMethods> {
   // Member variables go here.
