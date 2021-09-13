@@ -1,6 +1,6 @@
 #import <UIKit/UIKit.h>
 
-@import JitsiMeet;
+@import JitsiMeetSDK;
 @protocol jitsiconferecedelgeteMethods <NSObject>
 
 -(void)StartcallNotification:(NSObject *)obj;
