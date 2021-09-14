@@ -60,7 +60,7 @@ public class JitsiVCall extends CordovaPlugin {
             @Override
             public void run() {
 
-                Intent intent = new Intent(context.getApplicationContext(), cordova.plugin.videocall.SampleActivity.class);
+                Intent intent = new Intent(context.getApplicationContext(), com.medleymed.VideoCall.VideoCall.class);
                 intent.putExtra("meetingId", meetingId);
                 intent.addFlags(FLAG_ACTIVITY_NEW_TASK);
                 cordova.getContext().getApplicationContext().startActivity(intent);
